@@ -1,11 +1,11 @@
-site_name: MWE
+site_name: SWE
 docs_dir: source
 site_dir: docs
 
 plugins: 
   - search
   - bibtex:
-      bib_file: mwe.bib
+      bib_file: swe.bib
 
 markdown_extensions:
   - footnotes
