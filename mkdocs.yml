@@ -1,6 +1,6 @@
 site_name: MWE
-docs_dir: docs
-site_dir: site
+docs_dir: source
+site_dir: docs
 
 plugins: 
   - search

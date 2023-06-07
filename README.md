@@ -13,7 +13,7 @@ You will see the website in your browser at http://localhost:8000/.
 
 ## Where to start editing
 
-Your main page is always the "index" file that generates the home page `index.html`. The source file is the one you edit, and it is in the `docs` folder. You will see that it is a **markdown** or `.md` file. MkDocs looks for markdown files to make your pages.
+Your main page is always the "index" file that generates the home page `index.html`. The source file is the one you edit, and it is in the `source` folder. You will see that it is a **markdown** or `.md` file. MkDocs looks for markdown files to make your pages.
 
 John Gruber is the originator of Markdown and his site contains [the documentation](https://daringfireball.net/projects/markdown/) you need to get writing very quickly.
 
@@ -29,9 +29,9 @@ Stop the mkdocs server by pressing `ctrl-c` in the terminal, and run:
 $ mkdocs build
 ```
 
-This will build the site and place the files in a new folder called `site`. This folder contains all of the files you need for your website; you should upload it to your server's home folder, often called the document root, and located at `/var/www/html/exmaple.com/public_html/`. Your ISP should tell you where to find it and how to upload files to your server.
+This will build the site and place the files in a new folder called `docs`. This folder contains all of the files you need for your website; you should upload the contents of `docs` to your server's home folder, often called the document root, and located at `/var/www/html/exmaple.com/public_html/`. Your ISP should tell you where to find it and how to upload files to your server.
 
-If you cloned this repository, then you can adjust the settings in github to serve the content from the `site` directory.
+If you cloned this repository, then you can adjust the settings in github to serve the content from the `docs` directory.
 
 ## Try it!
 
