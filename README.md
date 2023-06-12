@@ -1,7 +1,7 @@
 # SWE-mkdocs
 A small working example of a mkdocs site.
 
-To get started, copy the whole site (or clone this repository) to a convenient place for development. You will need to install mkdocs - instructions are at https://www.mkdocs.org/user-guide/installation/. 
+To get started, [download the zip file](https://github.com/NixImagery/SWE-mkdocs/archive/refs/heads/main.zip) (or [fork this repository](https://github.com/login?return_to=%2FNixImagery%2FSWE-mkdocs)) to a convenient place for development. You will need to install mkdocs - instructions are at https://www.mkdocs.org/user-guide/installation/. 
 
 To use the example page here, which includes citations from a `bibtex` file, you will also need to install the plugin:
 
@@ -37,7 +37,7 @@ $ mkdocs build
 
 This will build the site and place the files in a new folder called `docs`. This folder contains all of the files you need for your website; you should upload the contents of `docs` to your server's home folder, often called the document root, and located at `/var/www/html/exmaple.com/public_html/`. Your ISP should tell you where to find it and how to upload files to your server.
 
-If you cloned this repository, then you can adjust the settings in github to serve the content from the `docs` directory.
+If you forked this repository, then you can adjust the settings in your own github repository to serve the content from the `docs` directory. It should look a bit [like this](https://niximagery.github.io/SWE-mkdocs).
 
 ## Try it!
 
