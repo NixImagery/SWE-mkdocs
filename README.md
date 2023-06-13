@@ -37,7 +37,7 @@ $ mkdocs build
 
 This will build the site and place the files in a new folder called `docs`. This folder contains all of the files you need for your website; you should upload the contents of `docs` to your server's home folder, often called the document root, and located at `/var/www/html/exmaple.com/public_html/`. Your ISP should tell you where to find it and how to upload files to your server.
 
-If you forked this repository, then you can adjust the settings in your own github repository to serve the content from the `docs` directory. It should look a bit [like this](https://niximagery.github.io/SWE-mkdocs).
+If you forked this repository, then (once you have pushed the changes to the repository) you can adjust the settings in your own github repository to serve the content from the `docs` directory. It should look a bit [like this](https://niximagery.github.io/SWE-mkdocs).
 
 ## Try it!
 
